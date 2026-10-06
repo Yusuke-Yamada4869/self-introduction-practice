@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介-山田悠介</title>
+</head>
+<body>
+<h1>自己紹介</h1>
+<h2>プロフィール</h2>
+<p>
+<p>・名前: 山田悠介</p>
+<p>・年齢: 27歳</p>
+<p>・出身地: 大阪府</p>
+<p>・趣味:　読書</p>
+</body>
+<h2>好きなもの</h2>
+<ul>
+<li>焼肉</li>
+<li>ラーメン</li>
+<li>寿司</li>
+</ul>
+<h2>今年の目標</h2>
+<ol>
+<li>知識を付ける</li>
+<li>エーアイを活かせるようにする</li>
+<li>お金を稼ぐ</li>
+</ol>
+<h2>リンク</h2>
+<a href="https://github.com/Yusuke-Yamada4869/my-first-git" target="_blank">私のGitHub</a>
+<h2>好きな風景</h2>
+<img src="landscape.jpg" alt="好きな風景" width="400">
+<h2>お問い合わせ</h2>
+<div>
+<form action="/submit" method="POST">
+<label for="name">お名前</label>
+<input type="text" id="name"name="name"required>
+</div>
+<div>
+<label for="contact-category">一般的なお問い合わせ</label>
+<select name="category">
+    <option value"">-- 選択してください --</option>
+    <option value="一般的なお問い合わせ">一般的なお問い合わせ</option>
+    <option value="ご意見・ご要望">ご意見・ご要望</option>
+</select>
+</div>
+<div>
+    <label for="contact-message">お問い合わせ内容:</label>
+    <textarea name="message" rows="5" message="message"required></textarea>
+    <button type="submit">送信する</button>
+</div>
+</form>
+</body>
+</html>
